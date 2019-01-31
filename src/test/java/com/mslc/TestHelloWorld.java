@@ -29,4 +29,12 @@ public class TestHelloWorld {
 	      assertEquals(h.getName(),"World");
 	      assertEquals(h.getMessage(),"Hello World!");
 	   }
+	
+	   @Test
+	   public void testHelloWorld2() 
+	   {
+	      h.setName("World");
+	      assertEquals(h.getName(),"World");
+	      assertEquals(h.getMessage(),"Hello World!");
+	   }
 }
