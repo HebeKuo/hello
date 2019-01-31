@@ -1,28 +1,25 @@
 package com.mslc;
 
 public class HelloWorld {
-	 private String name = "";
+	private String name = "";
 
-	   public String getName() 
-	   {
-	      return name;
-	   }
+	public String getName() {
+		return name;
+	}
 
-	   public String getMessage() 
-	   {
-	      if (name == "") 
-	      {
-	         return "Hello!";
-	      }
-	      else 
-	      {
-	         return "Hello " + name + "!";
-	      }
-	   }
+	public String getMessage() {
+		String msg = "";
+		if (name == "") {
+			msg = "Hello!";
+		} else {
+			msg = "Hello " + name + "!";
+		}
+		System.out.println("~~~~~~~~~~~~~~~~~~name:" + name + " ,msg:" + msg);
+		return msg;
+	}
 
-	   public void setName(String name) 
-	   {
-	      this.name = name;
-	   }
+	public void setName(String name) {
+		this.name = name;
+	}
 
 }
