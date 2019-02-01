@@ -35,7 +35,7 @@ public class TestHelloWorld {
 
 	   @Test
  	   public void testHelloWorld2() {
-		 String name = "World2", msg = "Hello World2!";
+		 String name = "World2", msg = "Hello World25555!";
 		 h.setName(name);
 		 assertEquals(h.getName(),name);
 		 assertEquals(h.getMessage(),msg);
